@@ -1,0 +1,1 @@
+this is golang my friend and we are learning to work with the file

@@ -1,0 +1,22 @@
+mongo libraries for go
+---> go.mongodb.org
+    --->client , driver , mongo atlas
+
+
+mongodb go driver from the go.mongo.org
+--->go get go.mongodb.org/mongo-driver/mongo
+
+
+
+various import for mongo driver
+
+import (
+    "context"
+    "log"
+    "time"
+
+    "go.mongodb.org/mongo-driver/bson"
+    "go.mongodb.org/mongo-driver/mongo"
+    "go.mongodb.org/mongo-driver/mongo/options"
+    "go.mongodb.org/mongo-driver/mongo/readpref"
+)
